@@ -6,7 +6,7 @@
   </head>
   <body>
 
-
+<!-- h p hr pre blockquote-->
     <h1>
       headline 약자, 1~6호 까지
     </h1>
@@ -21,7 +21,7 @@
       인용구 사용 시<br>
     </blockquote>
 
-
+<!--em strong small mark sub sup-->
     <p>
       <em>기울임</em>
       <strong>진하게</strong>
@@ -30,7 +30,7 @@
       <sub>아랫첨자</sub><sup>윗첨자</sup>
     </p>
 
-
+<!--ul ol-->
     <p>
       <ul type= 'disc'>
         <li>unordered list</li>
@@ -47,13 +47,17 @@
       <dt>d_term</dt><dd>d_description</dd>
     </dl>
 
-
-    <table>
+<!--tablerow tablehead tabledata-->
+    <table border = '1'>
+      <!--thead tfoot tbody로 테이블 구조표현-->
       <tr>
-        <th>table</th><th>header</th>
+        <th rowspan = '1'>table</th><th>header</th>
       </tr>
       <tr>
-        <td>table</td><td>data</td>
+        <td colspan = '1'>table</td><td>data</td>
+      </tr>
+      <tr>
+        <td>테이블의</td><td>끝부분</td>
       </tr>
     </table>
 
