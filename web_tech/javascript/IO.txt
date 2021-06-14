@@ -1,0 +1,11 @@
+#Output
+
+document.write()
+
+alert()
+
+confirm() return boolean
+
+#input
+
+var = prompt() return String
