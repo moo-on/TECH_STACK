@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!--
+    https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
+    div는 id사용 - 블럭 단위
+    span은 class사용 - 내부 요소
+    -->
+    <style type="text/css">
+
+    #intro{font-style: italic;}
+    .term{font-variant: small-caps;}
+    strong.term{font-size : 12pt}
+    </style>
+
+  </head>
+  <body>
+    <div id="intro">
+      <h3>css이해</h3>
+      <p>
+        이 예제는
+        <span class = 'term'>css</span>
+        의 개념을 설명합니다.
+      </p>
+    </div>
+    <div style="font-style : italic">
+      <p>
+        div선언방식
+      </p>
+    </div>
+  </body>
+</html>
