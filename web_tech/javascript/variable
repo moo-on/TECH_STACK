@@ -1,7 +1,0 @@
-
-
-#type conversion
-parseInt
-parseFloat
-toString
-eval()
